@@ -396,3 +396,137 @@ h6 {
     margin: 50px 0 0 50px;
   }
   
+.bloque-Sd {
+    width: 980px;
+    height: 450px;
+    margin: 30px 30px 30px 120px;
+    border-radius: 40px;
+    padding: 20px;
+  
+    box-shadow: inset 0 0 0 2px #fff, 0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  .bloque-Sd img {
+    float: left;
+    width: 260px;
+    height: 250px;
+    margin: 75px 140px 0px 90px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  .bloque-Sd h1 {
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 30px 170px 0px 10px;
+  }
+  .bloque-Sd p {
+    float: right;
+    width: 400px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    margin: 40px 85px 0 5px;
+  }
+  
+  .bloque-Sc {
+    width: 980px;
+    height: 450px;
+    margin: 30px 30px 30px 120px;
+    border-radius: 40px;
+    padding: 20px;
+  
+    box-shadow: inset 0 0 0 2px #fff, 0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  .bloque-Sc img {
+    float: right;
+    width: 260px;
+    height: 250px;
+    margin: 75px 140px 0px 90px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  .bloque-Sc h1 {
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 30px 100px 0px 10px;
+  }
+  .bloque-Sc p {
+    float: right;
+    width: 380px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    margin: 25px 25px 0 5px;
+  }
+  
+  .bloque-tv img {
+    position: absolute;
+    float: left;
+    width: 430px;
+    height: 300px;
+    margin: 0px 30px 30px 160px;
+    border-radius: 40px;
+    padding: 20px;
+  }
+  
+  .bloque-tv iframe {
+    position: absolute;
+    float: left;
+    width: 400px;
+    height: 248px;
+    margin: 10px 30px 30px 177px;
+    border-radius: 40px;
+    padding: 20px;
+    z-index: 1;
+  }
+  
+  .bloque-tv h1 {
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 90px 120px 10px 780px;
+  }
+  
+  .bloque-cn {
+    width: 550px;
+    height: 550px;
+    border-radius: 35px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  .bloque-cn h1 {
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 10px 182px 10px 100px;
+  }
+  
+  #bg2 {
+    width: 140px;
+    height: 120px;
+    margin: 20px 180px 0px 145px;
+    border-radius: 100px;
+    padding: 7px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  
