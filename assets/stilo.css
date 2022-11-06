@@ -530,3 +530,60 @@ h6 {
       0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
   }
   
+.formulario input {
+    float: left;
+    width: 250px;
+    height: 15px;
+    margin: 15px 15px 12px 120px;
+    border-radius: 80px;
+    border-style: solid;
+  }
+  
+  .formulario label {
+    color: #fff;
+    float: right;
+    margin: 16px 130px 0px 0px;
+  }
+  
+  .formulario textarea {
+    color: black;
+    margin: 15px 15px 0px 120px;
+    border-radius: 10px;
+    border-style: solid;
+  }
+  
+  .formulario button {
+    position: relative;
+    color: #003c71;
+    text-align: center;
+    background-color: #fff;
+    border-color: #003c71;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin: 20px 10px 20px 250px;
+  }
+  
+  .formulario button:hover {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    background-color: #003c71;
+    border-color: #003c71;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin: 20px 10px 20px 250px;
+  }
+  
+  .footer {
+    position: static;
+    background-color: #384450;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  
