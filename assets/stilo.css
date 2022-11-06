@@ -220,3 +220,179 @@ h6 {
     margin-left: 7px;
   }
   
+.txt-cn {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+  }
+  
+  .txt-cn a {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .txt-cn a:hover {
+    color: rgb(230, 173, 74);
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .bloque-isq img {
+    float: right;
+    width: 600px;
+    height: 250px;
+    margin: 30px 70px 0px 30px;
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  .bloque-isq h1 {
+    float: left;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 30px 0px 10px 180px;
+  }
+  .bloque-isq p {
+    width: 400px;
+    margin: -230px 15px 0px 130px;
+    float: left;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .bloque-isq a {
+    float: left;
+    background-color: rgb(34, 173, 171);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 6px 6px 6px 6px;
+    margin: 6px 15px 0px 130px;
+  }
+  
+  .bloque-isq a:hover {
+    float: left;
+    background-color: rgb(230, 173, 74);
+    color: #064a56;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 6px 6px 6px 6px;
+    margin: 6px 15px 0px 130px;
+  }
+  
+  .bloque-dh img {
+    float: left;
+    width: 450px;
+    height: 450px;
+    margin: 30px 30px 30px 80px;
+    border-radius: 40px;
+    padding: 20px;
+  
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  .bloque-dh h1 {
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 20px 300px 10px 60px;
+  }
+  
+  .bloque-dh p {
+    width: 450px;
+    margin: 5px 150px 10px 0px;
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 0px;
+  }
+  
+  .bloque-dh a {
+    float: right;
+    background-color: rgb(34, 173, 171);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 40px -100px 0px 50px;
+  }
+  .bloque-dh a:hover {
+    float: right;
+    background-color: rgb(230, 173, 74);
+    color: #064a56;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 40px -100px 0px 50px;
+  }
+  .bloque-S {
+    width: 980px;
+    height: 450px;
+    margin: 30px 30px 30px 120px;
+    border-radius: 40px;
+    padding: 20px;
+  
+    box-shadow: inset 0 0 0 2px #fff, 0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  .bloque-S img {
+    float: right;
+    width: 260px;
+    height: 250px;
+    margin: 75px 140px 0px 90px;
+    border-radius: 40px;
+  
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  .bloque-S h1 {
+    float: left;
+    color: #fff;
+    font-family: sans-serif, monospace;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 60px 10px 0px 100px;
+  }
+  
+  .bloque-S p {
+    float: left;
+    width: 400px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    margin: 50px 0 0 50px;
+  }
+  
