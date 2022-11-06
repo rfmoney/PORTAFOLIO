@@ -1,0 +1,1177 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+body {
+  margin: 0;
+  background-color: #064a56;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+}
+
+.nav-menu {
+  background-color: #064a56;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.navbar-brand {
+  color: #fff;
+  font-family: sans-serif;
+  text-align: left;
+  margin: 05px;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.nav-menu a {
+  color: #fff;
+  align-content: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline;
+  padding-left: 70px;
+  margin-inline: 05px;
+  text-decoration: none;
+}
+
+.fondo {
+  width: 100%;
+  height: 280px;
+}
+.fondo img {
+  width: 100%;
+}
+
+.banner img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: -15px;
+  margin-left: 100px;
+}
+
+.banner a {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 0px 0px 80px -10px;
+}
+
+.social {
+  float: left;
+  max-width: 40px;
+  margin: 65px 0 0 14px;
+}
+
+.social i {
+  color: #fff;
+  align-content: center;
+  font-size: 35px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.back-fon {
+  position: relative;
+  display: flex;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.txt-center {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.txt-center a {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.txt-center a:hover {
+  color: rgb(230, 173, 74);
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.txt-font1 {
+  color: #fff;
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+}
+.txt-font2 {
+  color: #fff;
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 32px;
+}
+.txt-font2:hover {
+  color: rgb(230, 173, 74);
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 32px;
+}
+
+.txt-font3 {
+  color: #fff;
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.txt-font3:hover {
+  color: rgb(230, 173, 74);
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.txt-font4 {
+  color: #fff;
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.txt-font4:hover {
+  color: rgb(230, 173, 74);
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.txt-font5 {
+  color: #fff;
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 7px;
+}
+
+.txt-font5:hover {
+  color: rgb(230, 173, 74);
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 7px;
+}
+
+.txt-font6 {
+  color: #fff;
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: -180px;
+}
+
+.txt-font6:hover {
+  color: rgb(230, 173, 74);
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: -180px;
+}
+
+.txt-font7 {
+  color: #fff;
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -150px;
+  margin-left: 7px;
+}
+
+.txt-font7:hover {
+  color: rgb(230, 173, 74);
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 7px;
+}
+
+.txt-cn {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+}
+
+.txt-cn a {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.txt-cn a:hover {
+  color: rgb(230, 173, 74);
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.bloque-isq img {
+  float: right;
+  width: 600px;
+  height: 250px;
+  margin: 30px 70px 0px 30px;
+  border-radius: 40px;
+  padding: 20px;
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+
+.bloque-isq h1 {
+  float: left;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40px;
+  margin: 30px 0px 10px 180px;
+}
+.bloque-isq p {
+  width: 400px;
+  margin: 0px 15px 0px 130px;
+  float: left;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.bloque-isq a {
+  float: left;
+  background-color: rgb(34, 173, 171);
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 6px 6px 6px 6px;
+  margin: 6px 15px 0px 130px;
+}
+
+.bloque-isq a:hover {
+  float: left;
+  background-color: rgb(230, 173, 74);
+  color: #064a56;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 6px 6px 6px 6px;
+  margin: 6px 15px 0px 130px;
+}
+
+.bloque-dh img {
+  float: left;
+  width: 450px;
+  height: 450px;
+  margin: 30px 30px 30px 80px;
+  border-radius: 40px;
+  padding: 20px;
+
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+.bloque-dh h1 {
+  float: right;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin: 20px 300px 10px 60px;
+}
+
+.bloque-dh p {
+  width: 450px;
+  margin: 5px 150px 10px 0px;
+  float: right;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 0px;
+}
+
+.bloque-dh a {
+  float: right;
+  background-color: rgb(34, 173, 171);
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  margin: 40px -100px 0px 50px;
+}
+.bloque-dh a:hover {
+  float: right;
+  background-color: rgb(230, 173, 74);
+  color: #064a56;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  margin: 40px -100px 0px 50px;
+}
+.bloque-S {
+  width: 980px;
+  height: 450px;
+  margin: 30px 30px 30px 120px;
+  border-radius: 40px;
+  padding: 20px;
+
+  box-shadow: inset 0 0 0 2px #fff, 0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+
+.bloque-S img {
+  float: right;
+  width: 260px;
+  height: 250px;
+  margin: 75px 140px 0px 90px;
+  border-radius: 40px;
+
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+
+.bloque-S h1 {
+  float: left;
+  color: #fff;
+  font-family: sans-serif, monospace;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 60px 10px 0px 100px;
+}
+
+.bloque-S p {
+  float: left;
+  width: 400px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 40px;
+  margin: 50px 0 0 50px;
+}
+
+.bloque-Sd {
+  width: 980px;
+  height: 450px;
+  margin: 30px 30px 30px 120px;
+  border-radius: 40px;
+  padding: 20px;
+
+  box-shadow: inset 0 0 0 2px #fff, 0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+
+.bloque-Sd img {
+  float: left;
+  width: 260px;
+  height: 250px;
+  margin: 75px 140px 0px 90px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+
+.bloque-Sd h1 {
+  float: right;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40px;
+  margin: 30px 170px 0px 10px;
+}
+.bloque-Sd p {
+  float: right;
+  width: 400px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 40px;
+  margin: 40px 85px 0 5px;
+}
+
+.bloque-Sc {
+  width: 980px;
+  height: 450px;
+  margin: 30px 30px 30px 120px;
+  border-radius: 40px;
+  padding: 20px;
+
+  box-shadow: inset 0 0 0 2px #fff, 0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+
+.bloque-Sc img {
+  float: right;
+  width: 260px;
+  height: 250px;
+  margin: 75px 140px 0px 90px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+
+.bloque-Sc h1 {
+  float: right;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40px;
+  margin: 30px 100px 0px 10px;
+}
+.bloque-Sc p {
+  float: right;
+  width: 380px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 40px;
+  margin: 25px 25px 0 5px;
+}
+
+.bloque-tv img {
+  position: absolute;
+  float: left;
+  width: 430px;
+  height: 300px;
+  margin: 0px 30px 30px 160px;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.bloque-tv iframe {
+  position: absolute;
+  float: left;
+  width: 400px;
+  height: 248px;
+  margin: 10px 30px 30px 177px;
+  border-radius: 40px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.bloque-tv h1 {
+  float: right;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 25px;
+  margin: 90px 120px 10px 780px;
+}
+
+.bloque-cn {
+  width: 550px;
+  height: 550px;
+  border-radius: 35px;
+  margin-left: 350px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+
+.bloque-cn h1 {
+  float: right;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 10px 182px 10px 100px;
+}
+
+#bg2 {
+  width: 140px;
+  height: 120px;
+  margin: 20px 180px 0px 145px;
+  border-radius: 100px;
+  padding: 7px;
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+
+.formulario input {
+  float: left;
+  width: 250px;
+  height: 15px;
+  margin: 15px 15px 12px 120px;
+  border-radius: 80px;
+  border-style: solid;
+}
+
+.formulario label {
+  color: #fff;
+  float: right;
+  margin: 16px 130px 0px 0px;
+}
+
+.formulario textarea {
+  color: black;
+  margin: 15px 15px 0px 120px;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.formulario button {
+  position: relative;
+  color: #003c71;
+  text-align: center;
+  background-color: #fff;
+  border-color: #003c71;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  margin: 20px 10px 20px 250px;
+}
+
+.formulario button:hover {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  background-color: #003c71;
+  border-color: #003c71;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  margin: 20px 10px 20px 250px;
+}
+
+.footer {
+  position: static;
+  background-color: #384450;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  padding: 10px;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+  body {
+    margin: 0 auto;
+    background-color: #064a56;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: sans-serif;
+  }
+
+  .nav-menu {
+    background-color: #064a56;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .navbar-brand {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: left;
+    margin: 03px;
+    font-weight: bold;
+  }
+
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+
+  .nav-menu a {
+    color: #fff;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    display: inline;
+    padding-left: 30px;
+    margin-inline: 03px;
+    text-decoration: none;
+  }
+
+  .fondo {
+    width: 100%;
+    height: 250px;
+  }
+  .fondo img {
+    width: 100%;
+  }
+
+  .banner img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -280px;
+    margin-left: 30px;
+  }
+
+  .banner a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0px 0px 80px 40px;
+  }
+
+  .social {
+    float: left;
+    max-width: 40px;
+    margin: 65px 0 0 14px;
+  }
+
+  .social i {
+    color: #fff;
+    align-content: center;
+    font-size: 35px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .back-fon {
+    position: relative;
+    display: flex;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .txt-center {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .txt-center a {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .txt-center a:hover {
+    color: rgb(230, 173, 74);
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .txt-font1 {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+  }
+  .txt-font2 {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 05px;
+  }
+  .txt-font2:hover {
+    color: rgb(230, 173, 74);
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 15px;
+  }
+
+  .txt-font3 {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 3px;
+  }
+
+  .txt-font3:hover {
+    color: rgb(230, 173, 74);
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  .txt-font4 {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 7px;
+  }
+
+  .txt-font4:hover {
+    color: rgb(230, 173, 74);
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 15px;
+  }
+
+  .txt-font5 {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  .txt-font5:hover {
+    color: rgb(230, 173, 74);
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  .txt-font6 {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -180px;
+  }
+
+  .txt-font6:hover {
+    color: rgb(230, 173, 74);
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+    margin-left: -180px;
+  }
+
+  .txt-font7 {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -150px;
+    margin-left: 7px;
+  }
+
+  .txt-font7:hover {
+    color: rgb(230, 173, 74);
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 7px;
+  }
+
+  .txt-cn {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+
+  .txt-cn a {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 30px;
+    margin-bottom: 00px;
+  }
+
+  .txt-cn a:hover {
+    color: rgb(230, 173, 74);
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+
+  .bloque-isq img {
+    float: right;
+    width: 490px;
+    height: 250px;
+    margin: 0px 90px 0px 10px;
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .bloque-isq h1 {
+    float: left;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 30px 0px 10px 150px;
+  }
+  .bloque-isq p {
+    width: 500px;
+    margin: 0px 15px 0px 30px;
+    float: left;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .bloque-isq a {
+    float: left;
+    background-color: rgb(34, 173, 171);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 6px 6px 6px 6px;
+    margin: 6px 15px 0px 130px;
+  }
+
+  .bloque-isq a:hover {
+    float: left;
+    background-color: rgb(230, 173, 74);
+    color: #064a56;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 6px 6px 6px 6px;
+    margin: 6px 15px 0px 130px;
+  }
+
+  .bloque-dh img {
+    float: left;
+    width: 450px;
+    height: 450px;
+    margin: 30px 30px 30px 30px;
+    border-radius: 40px;
+    padding: 20px;
+
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+  .bloque-dh h1 {
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0px 200px 10px 60px;
+  }
+
+  .bloque-dh p {
+    width: 450px;
+    margin: 10px 50px 10px 0px;
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 0px;
+  }
+
+  .bloque-dh a {
+    float: right;
+    background-color: rgb(34, 173, 171);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 40px -80px 0px 10px;
+  }
+  .bloque-dh a:hover {
+    float: right;
+    background-color: rgb(230, 173, 74);
+    color: #064a56;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 40px -80px 0px 100px;
+  }
+  .bloque-S {
+    width: 980px;
+    height: 450px;
+    margin: 10px 30px 30px 15px;
+    border-radius: 40px;
+    padding: 20px;
+
+    box-shadow: inset 0 0 0 2px #fff, 0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .bloque-S img {
+    float: right;
+    width: 160px;
+    height: 150px;
+    margin: 95px 30px 0px 0px;
+    border-radius: 40px;
+
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .bloque-S h1 {
+    float: left;
+    color: #fff;
+    font-family: sans-serif, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    margin: -210px 10px 0px 100px;
+  }
+
+  .bloque-S p {
+    float: left;
+    width: 250px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    margin: -160px 0 0 10px;
+  }
+
+  .bloque-Sd {
+    width: 980px;
+    height: 450px;
+    margin: 30px 30px 30px 20px;
+    border-radius: 40px;
+    padding: 20px;
+
+    box-shadow: inset 0 0 0 2px #fff, 0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .bloque-Sd img {
+    float: left;
+    width: 160px;
+    height: 150px;
+    margin: 5px 140px 0px 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .bloque-Sd h1 {
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: -110px 50px 0px 10px;
+  }
+  .bloque-Sd p {
+    float: right;
+    width: 400px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    margin: 10px 35px 0 5px;
+  }
+
+  .bloque-Sc {
+    width: 980px;
+    height: 450px;
+    margin: 30px 30px 30px 20px;
+    border-radius: 40px;
+    padding: 20px;
+
+    box-shadow: inset 0 0 0 2px #fff, 0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .bloque-Sc img {
+    float: right;
+    width: 160px;
+    height: 150px;
+    margin: 15px 30px 0px 90px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .bloque-Sc h1 {
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: -110px 240px 0px 10px;
+  }
+  .bloque-Sc p {
+    float: right;
+    width: 380px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    margin: 25px 55px 0 5px;
+  }
+
+  .bloque-tv img {
+    position: absolute;
+    float: left;
+    width: 430px;
+    height: 300px;
+    margin: 0px 30px 30px 160px;
+    border-radius: 40px;
+    padding: 20px;
+  }
+
+  .bloque-tv iframe {
+    position: absolute;
+    float: left;
+    width: 400px;
+    height: 248px;
+    margin: -10px 30px 30px 70px;
+    border-radius: 40px;
+    padding: 20px;
+    z-index: 1;
+  }
+
+  .bloque-tv h1 {
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 270px 120px 10px 160px;
+  }
+
+  .bloque-cn {
+    width: 550px;
+    height: 550px;
+    border-radius: 35px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .bloque-cn h1 {
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 10px 182px 10px 100px;
+  }
+
+  #bg2 {
+    width: 140px;
+    height: 120px;
+    margin: 20px 180px 0px 145px;
+    border-radius: 100px;
+    padding: 7px;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .formulario input {
+    float: left;
+    width: 250px;
+    height: 15px;
+    margin: 15px 15px 12px 120px;
+    border-radius: 80px;
+    border-style: solid;
+  }
+
+  .formulario label {
+    color: #fff;
+    float: right;
+    margin: 16px 130px 0px 0px;
+  }
+
+  .formulario textarea {
+    color: black;
+    margin: 15px 15px 0px 120px;
+    border-radius: 10px;
+    border-style: solid;
+  }
+
+  .formulario button {
+    position: relative;
+    color: #003c71;
+    text-align: center;
+    background-color: #fff;
+    border-color: #003c71;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin: 20px 10px 20px 250px;
+  }
+
+  .formulario button:hover {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    background-color: #003c71;
+    border-color: #003c71;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin: 20px 10px 20px 250px;
+  }
+
+  .footer {
+    position: static;
+    background-color: #384450;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+  }
+}
