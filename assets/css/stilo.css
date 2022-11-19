@@ -87,6 +87,14 @@ h6 {
   margin-top: 10px;
 }
 
+.social i:hover {
+  color: rgb(230, 173, 74);
+  align-content: center;
+  font-size: 35px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
 .back-fon {
   position: relative;
   display: flex;
@@ -225,7 +233,7 @@ h6 {
   font-family: sans-serif;
   font-size: 30px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 0px;
   margin-right: 50px;
   margin-bottom: 0px;
 }
@@ -235,7 +243,7 @@ h6 {
   font-family: sans-serif;
   font-size: 30px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-right: 0px;
   margin-bottom: 0px;
 }
@@ -270,7 +278,7 @@ h6 {
 }
 .bloque-isq p {
   width: 400px;
-  margin: 0px 15px 0px 130px;
+  margin: -5px 15px 0px 130px;
   float: left;
   color: #fff;
   font-family: sans-serif;
@@ -501,13 +509,134 @@ h6 {
   margin: 90px 120px 10px 780px;
 }
 
+.lazer {
+  position: relative;
+  display: flex;
+  color: #fff;
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 90px;
+}
+
+.caja-cep {
+  position: relative;
+  display: flex;
+  color: #fff;
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 90px;
+}
+
+.caja {
+  background-color: #064a56;
+  width: 350px;
+  height: 500px;
+  margin: 210px 0 120px 450px;
+  border-radius: 35px;
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+}
+
+.caja input {
+  float: center;
+  width: 250px;
+  height: 25px;
+  margin: 20px 0px 0px 50px;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.caja button {
+  position: relative;
+  color: #064a56;
+  text-align: center;
+  background-color: #fff;
+  border-color: #003c71;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  margin: 15px 10px 10px 150px;
+}
+
+.caja button:hover {
+  position: relative;
+  color: #064a56;
+  text-align: center;
+  background-color: #ffea04;
+  border-color: #0a0a0a;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  margin: 15px 10px 10px 150px;
+}
+
+.caja p {
+  color: #cc3300;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: 0.5px #fff;
+  font-size: 18px;
+}
+
+#cep1 {
+  position: relative;
+  float: right;
+  width: 250px;
+  height: 80px;
+  margin: 0px 30px 5px 160px;
+  border-radius: 25px;
+  padding: 20px;
+}
+.txt-cen {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 270px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+}
+
+.txt-cen a {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.txt-cen a:hover {
+  color: rgb(230, 173, 74);
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.contato {
+  position: relative;
+  display: flex;
+  color: #fff;
+  width: 100%;
+  height: 600px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
+
 .bloque-cn {
   width: 550px;
   height: 550px;
   border-radius: 35px;
   margin-left: 350px;
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 40px;
   box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
     0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
 }
@@ -859,7 +988,7 @@ h6 {
   }
   .bloque-isq p {
     width: 500px;
-    margin: 0px 15px 0px 30px;
+    margin: 80px 15px 0px 30px;
     float: left;
     color: #fff;
     font-family: sans-serif;
