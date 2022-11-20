@@ -254,6 +254,7 @@
     <h2 id="contato" class="txt-cen">
       <a href="#volver"><i class="fas fa-tty"></i></a><br />Contato
     </h2>
+
     <div class="contato">
       <div class="bloque-cn">
         <div class="social">
@@ -280,46 +281,75 @@
         <img id="bg2" src="assets/img/ft3.jpg" />
         <h1>DEIXA SEUS DADOS</h1>
 
-        <form
-          action=""
-          class="formulario"
-          id="formulario"
-          method=" "
-          name="formulario"
-        >
-          <div>
-            <div>
-              <input
-                type="text"
-                id=""
-                name="nome"
-                maxlength="25"
-                placeholder="  inserir seu nome"
-              />
-              <label for="nome"><i class="fas fa-user"></i></label>
+        <main>
+          <form action="" class="formulario" id="formulario">
+            <!-- Grupo: Nombre -->
+            <div class="formulario__grupo" id="grupo__nombre">
+              <label for="nombre" class="formulario__label"></label>
+              <div class="formulario__grupo-input">
+                <input
+                  type="text"
+                  class="formulario__input"
+                  name="nombre"
+                  id="nombre"
+                  placeholder="Insire seu Nome"
+                />
+                <i
+                  class="formulario__validacion-estado far fa-times-circle"
+                ></i>
+                <p class="formulario__input-error"></p>
+              </div>
             </div>
-            <div>
-              <input
-                type="email"
-                id=""
-                name="email"
-                maxlength="50"
-                placeholder="  inserir seu email"
-              />
-              <label for="email"><i class="fas fa-at"></i></label>
-            </div>
-            <textarea
-              type="text"
-              id=""
-              name="mensagem"
-              rows="10"
-              cols="38"
-              placeholder=" inserir sua mensagem"
-            ></textarea>
 
-            <button class="btn-form">Enviar</button>
-          </div>
-        </form>
+            <!-- Grupo: Correo Electronico -->
+            <div class="formulario__grupo" id="grupo__correo">
+              <label for="correo" class="formulario__label"></label>
+              <div class="formulario__grupo-input">
+                <input
+                  type="email"
+                  class="formulario__input"
+                  name="correo"
+                  id="correo"
+                  placeholder="correo@correo.com"
+                />
+                <i
+                  class="formulario__validacion-estado far fa-times-circle"
+                ></i>
+                <p class="formulario__input-error"></p>
+              </div>
+            </div>
+
+            <!-- Grupo: telefono -->
+            <div class="formulario__grupo" id="grupo__telefono">
+              <label for="telefono" class="formulario__label"></label>
+              <div class="formulario__grupo-input">
+                <input
+                  type="text"
+                  class="formulario__input"
+                  name="telefono"
+                  id="telefono"
+                  placeholder="123456789"
+                />
+                <i
+                  class="formulario__validacion-estado far fa-times-circle"
+                ></i>
+                <p class="formulario__input-error"></p>
+              </div>
+            </div>
+            <!-- Boton -->
+            <div
+              class="formulario__grupo formulario__grupo-btn-enviarformilario__grupo-btn-enviar"
+            >
+              <button type="submit" class="formulario__btn">Enviar</button>
+              <p
+                class="formulario__mensaje-exito"
+                id="formulario__mensaje-exito"
+              >
+                Formulário enviado com sucesso!
+              </p>
+            </div>
+          </form>
+        </main>
       </div>
     </div>
 
@@ -328,6 +358,7 @@
     </footer>
 
     <script src="assets/js/cep.js"></script>
+    <script src="assets/js/formulario.js"></script>
 
     <script
       src="https://kit.fontawesome.com/f0e17cbf2f.js"
